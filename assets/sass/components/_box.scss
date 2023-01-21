@@ -1,20 +1,3 @@
-/* Box */
-
-	.box {
-		border-radius: _size(border-radius);
-		border: solid _size(border-width) _palette(border);
-		margin-bottom: _size(element-margin);
-		padding: 1.5em;
-
-		> :last-child,
-		> :last-child > :last-child,
-		> :last-child > :last-child > :last-child {
-			margin-bottom: 0;
-		}
-
-		&.alt {
-			border: 0;
-			border-radius: 0;
-			padding: 0;
-		}
-	}
+version https://git-lfs.github.com/spec/v1
+oid sha256:759d02eb391baba2dc4748bab13ace86053b15162d07f0fbe5d7a4c8299f6716
+size 376
