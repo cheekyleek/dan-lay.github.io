@@ -1682,3 +1682,15 @@ video.video-1 {
 .github-link > img {
 	width: 2rem;
 }
+
+.skill::after {
+	content: " | ";
+}
+
+.skill::before {
+	content: " | ";
+}
+
+/* .skill-list:last-child::after {
+	content: "";
+} */
