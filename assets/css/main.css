@@ -1673,3 +1673,12 @@ video.video-1 {
 	width: 100%;
 	height: 100%;   
 }
+
+.github-link {
+	all: unset;
+	cursor: pointer;
+}
+
+.github-link > img {
+	width: 2rem;
+}
